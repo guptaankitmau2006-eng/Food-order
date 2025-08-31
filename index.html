@@ -73,10 +73,10 @@
       <!-- Dish Card Example -->
       <div class="col-md-4">
         <div class="card">
-          <img src="https://images.unsplash.com/photo-1601924582971-0303d2a98d9f" class="card-img-top" alt="Noodles">
+          <img src="https://i.ibb.co/LDW4HBFk/53240783.jpg" class="card-img-top" alt="Noodles">
           <div class="card-body text-center">
             <h5 class="card-title">Noodles</h5>
-            <p class="card-text">₹80</p>
+            <p class="card-text">₹30</p>
             <button class="btn btn-sm btn-primary" onclick="addToCart('Noodles', 80)">Add to Cart</button>
           </div>
         </div>
@@ -87,7 +87,7 @@
           <img src="https://images.unsplash.com/photo-1550547660-d9450f859349" class="card-img-top" alt="Burger">
           <div class="card-body text-center">
             <h5 class="card-title">Burger</h5>
-            <p class="card-text">₹60</p>
+            <p class="card-text">₹25</p>
             <button class="btn btn-sm btn-primary" onclick="addToCart('Burger', 60)">Add to Cart</button>
           </div>
         </div>
@@ -95,10 +95,10 @@
 
       <div class="col-md-4">
         <div class="card">
-          <img src="https://images.unsplash.com/photo-1617196036817-6f1c923bf77c" class="card-img-top" alt="Cold Drink">
+          <img src="https://i.ibb.co/RpRs4gr3/coca-cola-cold-drink-717.jpg" class="card-img-top" alt="Cold Drink">
           <div class="card-body text-center">
             <h5 class="card-title">Cold Drink</h5>
-            <p class="card-text">₹30</p>
+            <p class="card-text">₹45</p>
             <button class="btn btn-sm btn-primary" onclick="addToCart('Cold Drink', 30)">Add to Cart</button>
           </div>
         </div>
@@ -106,10 +106,10 @@
 
       <div class="col-md-4">
         <div class="card">
-          <img src="https://images.unsplash.com/photo-1604908177521-402fda1b3a69" class="card-img-top" alt="Manchurian">
+          <img src="https://i.ibb.co/F4STj56J/images.jpg" class="card-img-top" alt="Manchurian">
           <div class="card-body text-center">
             <h5 class="card-title">Manchurian</h5>
-            <p class="card-text">₹100</p>
+            <p class="card-text">₹30</p>
             <button class="btn btn-sm btn-primary" onclick="addToCart('Manchurian', 100)">Add to Cart</button>
           </div>
         </div>
@@ -120,7 +120,7 @@
           <img src="https://i.ibb.co/Y7dJrh2H/download.jpg" class="card-img-top" alt="Egg Roll">
           <div class="card-body text-center">
             <h5 class="card-title">Egg Roll</h5>
-            <p class="card-text">₹50</p>
+            <p class="card-text">₹40</p>
             <button class="btn btn-sm btn-primary" onclick="addToCart('Egg Roll', 50)">Add to Cart</button>
           </div>
         </div>
@@ -128,10 +128,10 @@
 
       <div class="col-md-4">
         <div class="card">
-          <img src="https://images.unsplash.com/photo-1604908812446-3b4d947a7d7a" class="card-img-top" alt="Chaat">
+          <img src="https://i.ibb.co/60KBkMkX/Sweet-potato-Tikki-Chaat.jpg" class="card-img-top" alt="Chaat">
           <div class="card-body text-center">
             <h5 class="card-title">Chaat</h5>
-            <p class="card-text">₹40</p>
+            <p class="card-text">₹25</p>
             <button class="btn btn-sm btn-primary" onclick="addToCart('Chaat', 40)">Add to Cart</button>
           </div>
         </div>
@@ -237,7 +237,7 @@
       })
       .then(res => res.text())
       .then(data => {
-        document.getElementById("message").innerHTML = `<div class="alert alert-success">✅ Order placed successfully!</div>`;
+        document.getElementById("message").innerHTML = `<div class="alert alert-success">✅ Order placed successfully! someone contact you sortly for confirmation. </div>`;
         cart = [];
         displayCart();
         document.getElementById("orderForm").reset();
